@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Accessible personal portfolio website showcasing skills, projects, and contact information.">
+  <meta name="author" content="Your Name">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html" aria-label="Your Name home">Your Name</a>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a aria-current="page" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container">
+      <p class="eyebrow">Web Developer &amp; Designer</p>
+      <h1 id="hero-title">Building useful, accessible digital experiences.</h1>
+      <p>I create responsive websites with clean HTML, accessible interfaces, and user-focused design.</p>
+      <a class="button" href="projects.html">View my projects</a>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="skills-title">
+    <div class="container">
+      <h2 id="skills-title">Skills</h2>
+      <div class="cards">
+        <article class="card"><h3>HTML5</h3><p>Semantic, structured, accessible markup.</p></article>
+        <article class="card"><h3>CSS3</h3><p>Responsive layouts and modern visual styling.</p></article>
+        <article class="card"><h3>Accessibility</h3><p>Keyboard-friendly interfaces and screen-reader support.</p></article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container"><p>&copy; 2026 Your Name. All rights reserved.</p></div>
+</footer>
+</body>
+</html>
