@@ -45,7 +45,3 @@ Open index.html in a browser. Replace Your Name and the sample project/about con
 
 
 Lighthouse
-
-Run Chrome DevTools Lighthouse on the pages and fix any environment-specific issues before submission. The contact form is a front-end demonstration; connect it to a server/form service if actual message delivery is required.
-
-
